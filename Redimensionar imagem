@@ -1,0 +1,11 @@
+import cv2 as cv
+
+imagem = cv.imread("C:/Users/Audrey/Pictures/wallpaper/183339.jpg")
+
+tamanho = cv.resize(imagem,(720, 1080))
+
+cv.imshow("IMAGEM EDITADA", tamanho)
+
+cv.imshow("IMAGEM ORIGINAL", imagem)
+
+cv.waitKey()
