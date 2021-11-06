@@ -1,6 +1,6 @@
 import cv2 as cv
 
-imagem = cv.imread("C:/Users/Audrey/Pictures/wallpaper/183339.jpg")
+imagem = cv.imread("Endereço da imagem aqui")
 
 tamanho = cv.resize(imagem,(720, 1080))
 
